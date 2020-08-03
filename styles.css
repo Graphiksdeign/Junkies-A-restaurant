@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@font-face {
+    font-family: "whitehall";
+    src: url(/fonts/whitehall.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Recursive', sans-serif;
+    color: #777;
+}
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+.navi li {
+    display: inline;
+}
+.navi a {
+    display: inline-block;
+    padding: 0.5em;
+    color: aliceblue;
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-nav li {
+    padding: 0 5%;
+}
+.navi a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.navi ul {
+    margin: 0px;
+}
+.main-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(/img/theme.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "whitehall";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: 'Krona One', sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-junk-image {
+    float: left;
+    height: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer {
+    background-color: rgba(88, 87, 87, 0.692);
+    color: aliceblue;
+    padding: 0.25em 0;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.footer-nav li {
+    padding: 0 0.5em;
+}
+.footer-nav img {
+    width: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+.btn-header {
+    display: block;
+    color: aliceblue;
+    border: 2px solid #495893;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10%;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding: 1em;
+}
+
+.btn-header:hover {
+    background-color:rgba(255, 255, 255, 0.3) ;
+}
+
+.btn-go{
+    display: block;
+    margin: 10px auto;
+    color: #454b64;
+    font-size: 3em;
+    border-radius: 50%;
+    padding: 0%;
+    width: 100px;
+    height: 100px;
+}
+
+.menu-row {
+    border-bottom: 1px solid #333;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.menu-row:last-child {
+    border-bottom: none;
+}
+
+.menu-item {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+.item-name {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+    padding-left: 5px;
+}
+
+.item-price {
+    display: inline-block;
+    width: 42%;
+}
+
+.item-btn {
+    max-width: 19%;
+}
+.menu {
+    text-align: center;
+}
+
+.btn-primary {
+    color: aliceblue;
+    background-color: #495893;
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #454b64;
+}
