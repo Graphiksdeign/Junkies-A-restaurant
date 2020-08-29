@@ -43,7 +43,7 @@ html, body {
 }
 .main-header {
     background-color: rgba(0, 0, 0, 0.6);
-    background-image: url(/img/theme.jpg);
+    background-image: url(https://Graphiksdeign.github.io/Junkies-A-restaurant/img/theme.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 20px;
